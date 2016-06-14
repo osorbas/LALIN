@@ -519,7 +519,7 @@ function wbreak {
 
 
 ####################################################################
-#Install wifiphiser
+#Install wifiphisher
 ######################################################################
 function wphiser {
 	clear
@@ -531,12 +531,12 @@ function wphiser {
 			read install
 			if [[ $install = Y || $install = y ]] ; then
 				clear	
-				echo -e "\033[31m========================== Installing WifiPhiser ============================\033[m"
+				echo -e "\033[31m========================== Installing WifiPhisher ============================\033[m"
 				sleep 2
-				rm -rf /root/wifiphiser
-				git clone https://github.com/Tle7839/wifiphiser.git /root/WifiPhiser/
+				rm -rf /root/wifiphisher
+				git clone https://github.com/Tle7839/wifiphisher.git /root/WifiPhisher/
 				echo 
-				echo -e "\033[31m================ Finish , now linset in /root/WifiPhiser ======================\033[m"
+				echo -e "\033[31m================ Finish , now linset in /root/WifiPhisher ======================\033[m"
 			else
 				clear
 				echo -e $white"Okays , Maybe see you next time "
